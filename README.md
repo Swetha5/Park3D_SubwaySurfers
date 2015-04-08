@@ -25,6 +25,7 @@ The world consists of an human(3D model),hurdles on tracks  and fossils .The  hu
 
 
 CONTROLS::
+
 1)w - walk mode
 2)s - slide mode
 3)z - move forward
@@ -35,10 +36,12 @@ CONTROLS::
 
 
 The following camera views are implemented:
+
 1)f - front view
 2)b - back view
 
 Lighting effects implemented::
+
 1)daylight
 2)night 
 3)sunrise
@@ -46,6 +49,7 @@ Lighting effects implemented::
 They vary with time
 
 Shadding effects ::
+
 1)terrain
 2)human
 
@@ -71,6 +75,7 @@ Take each pixel (x, y) in the height bitmap and duplicates the pixel value bitma
 We used blender objects as 3D models, using md2files and bmp files. 
 
 Textures:
+
 Texture mapping allows to glue an image of a brick wall (obtained, perhaps, by scanning in a photograph of a real wall) to a polygon and to draw the entire wall as a single polygon. Texture mapping ensures that all the right things happen as the polygon is transformed and rendered. A texture can be applied to a surface in different ways. It can be painted on directly (like a decal placed on a surface), used to modulate the color the surface would have been painted otherwise, or used to blend a texture color with the surface color. 
 
 To use texture mapping, we performed these steps.
@@ -79,9 +84,6 @@ Create a texture object and specify a texture for that object.
 Indicate how the texture is to be applied to each pixel.
 Enable texture mapping.
 Draw the scene, supplying both texture and geometric coordinates.
-
-
-
 
 
 Texture coordinates specify the point in the texture image that will correspond to the vertex you are specifying them for.
