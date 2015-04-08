@@ -1,9 +1,6 @@
 Our game has 2 stages. We can select a stage by pressing 1 or 2 on the terminal.
-
 First stage:
-
 The world consists of a bike,terrain and few fossils.The rider should collect fossils to get points within "120 seconds".
-
 CONTROLS:
 1)Bike can turn left by 'a' key and right by 'd' key
 2)One can accelerate bike by pressing up key and apply brakes by down key
@@ -19,10 +16,8 @@ The following camera views are implemented:
     d)Side View
     e)Follow Cam
 
-
 Second stage::
 The world consists of an human(3D model),hurdles on tracks  and fossils .The  human should collect the fossils without touching the hurdles to get points within 120 seconds. When he encounters a hurdle he can either jump or slide. If he collides with  the hurdle. the game is over
-
 
 CONTROLS::
 1)w - walk mode
@@ -32,7 +27,6 @@ CONTROLS::
 5)j - shift to left track
 6)k - shift to right track
 7)esc - to quit the interface 
-
 
 The following camera views are implemented:
 1)f - front view
