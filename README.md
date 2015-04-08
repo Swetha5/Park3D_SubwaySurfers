@@ -5,14 +5,23 @@ First stage:
 The world consists of a bike,terrain and few fossils.The rider should collect fossils to get points within "120 seconds".
 
 CONTROLS:
+
 1)Bike can turn left by 'a' key and right by 'd' key
+
 2)One can accelerate bike by pressing up key and apply brakes by down key
+
 3)Right and Left key tilt the bike and turn it left and right when it is in speed.
+
 4)Views can be switched by pressing 'v' button.
+
 5)Press 'ESC' key to exit game.  
+
 Bike has constant acceleration on pressing up key and deaccelarates when key is left.
+
 Bike can tilt(by max 45 degree) and will be balanced by centrifugal force.
+
 The following camera views are implemented:
+
     a)Driver View
     b)Wheel View
     c)OverHead View
@@ -20,42 +29,52 @@ The following camera views are implemented:
     e)Follow Cam
 
 
-Second stage::
+Second stage:
+
 The world consists of an human(3D model),hurdles on tracks  and fossils .The  human should collect the fossils without touching the hurdles to get points within 120 seconds. When he encounters a hurdle he can either jump or slide. If he collides with  the hurdle. the game is over
 
 
-CONTROLS::
+CONTROLS:
 
 1)w - walk mode
+
 2)s - slide mode
+
 3)z - move forward
+
 4)spacebar - to jump
+
 5)j - shift to left track
+
 6)k - shift to right track
+
 7)esc - to quit the interface 
 
 
 The following camera views are implemented:
 
 1)f - front view
+
 2)b - back view
 
-Lighting effects implemented::
+Lighting effects implemented:
 
 1)daylight
+
 2)night 
+
 3)sunrise
 
 They vary with time
 
-Shadding effects ::
+Shadding effects:
 
 1)terrain
+
 2)human
 
 
-Textures ::
-
+Textures:
 
 How to run:
 *g++ stry.cpp
@@ -63,7 +82,7 @@ How to run:
 * To play stage 1 - enter 1
 * To play stage 2 - enter 2
 
-Techniques ::
+Techniques :
 
 For creating the terrain, Bitmap Representation of Terrain and Elevation Data
 
